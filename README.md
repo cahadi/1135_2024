@@ -13,3 +13,11 @@ P.S. Разметка теперь пишется с расширением .php
 Вывод статей списком с кнопками редактирования и удаления (эти функции добавим чуть позже). Над списком создаем кнопку "Добавить статью" открывающую форму создания. Статья также сохраняется в json.
 
 Далее делаем редактирование и удаление. Редактирование статей, по аналогии с добавлением (Данные передавать в туже форму).
+
+Get и post
+https://www.php.net/manual/en/reserved.variables.get.php
+https://www.php.net/manual/en/reserved.variables.post.php
+
+Сохранение
+https://www.php.net/manual/en/function.file-put-contents.php
+https://www.php.net/manual/en/function.json-encode.php
