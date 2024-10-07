@@ -21,3 +21,7 @@ https://www.php.net/manual/en/reserved.variables.post.php
 Сохранение
 https://www.php.net/manual/en/function.file-put-contents.php
 https://www.php.net/manual/en/function.json-encode.php
+
+Структура проекта, для тех, кто забыл или не хотел
+https://github.com/user-attachments/assets/ed09aede-eb2e-4f5e-bb41-f338585046ef
+
