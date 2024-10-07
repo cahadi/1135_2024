@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b65b0f56-05fe-48ba-b112-9226ea3fe39c" name="Default Changelist" comment="" />
+    <list default="true" id="b65b0f56-05fe-48ba-b112-9226ea3fe39c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/db/articles.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/10.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/6.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/7.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/8.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/9.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/test.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/function.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/calculator/calcResult.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/frontend/partials/blog-entry.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/frontend/partials/blog-list.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/frontend/partials/blog-pagination.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/frontend/partials/breadcrumbs.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/frontend/partials/footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/frontend/partials/head.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/frontend/partials/navbar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/frontend/partials/sidebar.php" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +53,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -40,6 +67,7 @@
       <updated>1728286324074</updated>
       <workItem from="1728286326130" duration="600000" />
       <workItem from="1728287786946" duration="1754000" />
+      <workItem from="1728289669663" duration="1044000" />
     </task>
     <servers />
   </component>
@@ -56,5 +84,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
