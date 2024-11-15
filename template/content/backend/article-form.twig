@@ -1,0 +1,28 @@
+{% extends "layout.twig" %}
+
+{% block content %}
+<h5 class="card-title">Статья</h5>
+<form action="/1135/{{ target }}" method="post">
+    <div class="row g-3">
+        <div class="col-12">
+            <label for="inputText" class="col-sm-2 col-form-label"> Заголовок </label>
+            <input class="form-control" type="text" name="title" value="{{ article.title }}">
+        </div>
+        <div class="col-12">
+            <label for="inputText" class="col-sm-2 col-form-label">Изображение</label>
+            <input class="form-control" type="text" name="image" value="{{ article.image }}">
+        </div>
+        <div class="col-12">
+            <input type="hidden" name="id" value="{{ article.id }}">
+            <label for="inputText" class="col-sm-2 col-form-label">Содержание статьи</label>
+            <textarea class="tinymce-editor " name="content">
+            {{ article.content }}
+            </textarea>
+        </div>
+    </div>                        
+    <div class="text-center p-3">
+        <input type="submit" class="btn btn-primary" value="Сохранить">
+        <a href="/1135/articles"  class="btn btn-secondary">Закрыть</a>
+    </div>
+</form>
+{% endblock %}

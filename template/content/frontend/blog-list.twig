@@ -1,0 +1,33 @@
+{% extends "layout.twig" %}
+
+
+{% block content %}
+{% if articles is not empty %}
+    {% for article in articles %}
+        <article class="entry">
+            <div class="entry-img">
+                <img src="{{ article.image }}" alt="" class="img-fluid">
+            </div>
+            <h2 class="entry-title">
+                <a href="/1135/{{ article.id }}">{{ article.title }}</a>
+            </h2>
+            <div class="entry-meta">
+                <ul>
+                    <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-single.html">Автор</a></li>
+                </ul>
+            </div>
+            <div class="entry-content">
+                {% if articles | length > 1 %}
+                    <div class="read-more">
+                        <a href="/1135/{{ article.id }}">Читать</a>
+                    </div>
+                {% else %}
+                    <p>{{ article.content }}</p>
+                {% endif %}
+            </div>
+        </article>
+    {% endfor %}
+{% else %}
+    <p>No articles found.</p>
+{% endif %}
+{% endblock %}

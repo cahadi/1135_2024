@@ -1,0 +1,20 @@
+{
+    "name": "cahadi/site",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "cahadi",
+            "email": "ap357775462534@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.0",
+        "tracy/tracy": "^2.10",
+        "miladrahimi/phprouter": "5.*",
+        "laminas/laminas-diactoros": "^2.26"
+    }
+}

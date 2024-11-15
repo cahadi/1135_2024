@@ -1,0 +1,22 @@
+{% include('./partials/head.twig') %}
+{% include('./partials/navbar.twig') %}
+{% include('./partials/breadcrumbs.twig') %}
+
+<section id="blog" class="blog">
+    <div class="container" data-aos="fade-up">
+        <div class="row">
+            <div class="col-lg-8 entries">
+            {% block content %}{% endblock %}
+            </div>
+            <div class="col-lg-4">
+                {% if codeword == "frontend" %}
+                    {% include('./partials/frontsidebar.twig') %}
+                {% elseif codeword == "backend" %}
+                    {% include('./partials/backsidebar.twig') %}
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</section>
+
+{% include('./partials/footer.twig') %}
